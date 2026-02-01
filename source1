@@ -9375,7 +9375,7 @@ function Starlight:CreateWindow(WindowSettings)
 				local newName = instance:CreateInput({
 					Name = "New Theme Name",
 					PlaceholderText = "Name",
-					RemoveTextOnFocus = true,
+					RemoveTextOnFocus = false,
 					Callback = function(v) end,
 				}, "newthemename")
 				instance:CreateButton({
